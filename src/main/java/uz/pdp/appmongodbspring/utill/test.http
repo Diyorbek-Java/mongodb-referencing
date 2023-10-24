@@ -1,0 +1,49 @@
+###
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "name": "name_73ea6ff50aab"
+}
+
+<> 2023-10-24T170522.500.json
+
+###
+POST http://localhost:8080/city
+Content-Type: application/json
+
+{
+  "name": "name_73ea6ff50aab"
+}
+
+<> 2023-10-24T170643.500.json
+
+###
+POST http://localhost:8080/city
+Content-Type: application/json
+
+{
+  "name": "namangan"
+}
+
+<> 2023-10-24T170916.200.txt
+<> 2023-10-24T170823.200.txt
+
+###
+GET http://localhost:8080/city/namangan
+
+<> 2023-10-24T173535.500.json
+<> 2023-10-24T173525.200.json
+<> 2023-10-24T173506.200.json
+
+###
+POST http://localhost:8080/region
+Content-Type: application/json
+
+{
+  "name": "Turakurgan",
+  "street": "buramatut",
+  "city_name": "namangan"
+}
+
+<> 2023-10-24T173201.200.txt
